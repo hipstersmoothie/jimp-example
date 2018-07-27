@@ -1,4 +1,4 @@
-require('jimp');
+const Jimp = require('jimp');
 
 Jimp.read('./exampleImages/dice.png')
   .then(image => {
